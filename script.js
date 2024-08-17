@@ -1,7 +1,7 @@
 function calcular() {
     var numero = parseFloat(document.getElementById('numero').value);
     if (!isNaN(numero)) {
-      var resultado = (numero + 2.10) * 1500;
+      var resultado = (numero + 2.10) * 1450;
       document.getElementById('resultado').innerHTML = "El resultados es: " + resultado.toFixed(2);
     } else {
       document.getElementById('resultado').innerHTML = "Por favor ingrese un número válido.";
